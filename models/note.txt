@@ -16,3 +16,5 @@
     "ingridient": "salt",
     "num_sales": 30
 }
+
+https://hotel-9u9i.onrender.com/
