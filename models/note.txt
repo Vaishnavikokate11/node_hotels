@@ -1,0 +1,18 @@
+{
+    "name":"taj",
+    "age": 28,
+    "work": "chef",
+    "mobile": 2324132,
+    "email": "vaish2@gmail.com",
+    "address": "abc",
+    "salary": 200000
+}
+
+{
+    "name": "panir",
+    "price": 200,
+    "test": "sweet",
+    "is_drink": true,
+    "ingridient": "salt",
+    "num_sales": 30
+}
