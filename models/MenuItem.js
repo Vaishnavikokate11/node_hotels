@@ -29,6 +29,6 @@ const menuItemsSchem = new mongoose.Schema({
 
 })
 
-//comments add
+//comments add fo testing purpose
 const MenuItem = mongoose.model('MenuItem', menuItemsSchem)
 module.exports = MenuItem;
