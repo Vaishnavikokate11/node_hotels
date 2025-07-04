@@ -1,9 +1,13 @@
 const mongoose = require('mongoose');
+require('dotenv').config();
 
 //define the mongosb url
 
-const mongoURL = 'mongodb://localhost:27017/hotels'
+//const mongoURL = 'mongodb://localhost:27017/hotels'
+//const mongoURL = 'mongodb+srv://vanitakokate08:vaishu123@cluster0.vukrlcm.mongodb.net/'
 
+
+const mongoURL = process.env.MONGODB_URL
 //setup mongodb connect
 //establish connection
 mongoose.connect(mongoURL, {
@@ -11,6 +15,7 @@ mongoose.connect(mongoURL, {
     useUnifiedTopology: true
 })
 
+//helloword
 //get the default connection
 const db = mongoose.connection;
 
@@ -21,7 +26,7 @@ db.on('connected',()=>{
 })
 
 db.on('error', ()=>{
-    console.log('error',err);
+    console.log('error');
 })
 
 db.on('disconnected', ()=>{
