@@ -17,4 +17,15 @@
     "num_sales": 30
 }
 
+{
+    "name":"Rohsn",
+    "age": 28,
+    "mobile": 2324132,
+    "email": "vaish2@gmail.com",
+    "address": "abc",
+    "adharCardNumber": 12345776,
+    "password": "1234",
+    "role": "voter"
+}
+
 https://hotel-9u9i.onrender.com/
